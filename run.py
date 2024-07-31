@@ -1,5 +1,5 @@
 
-import os,sys
+import os,sys,platform
 print(' • Checking updates');os.system('git pull -q');print('')
 bit = platform.architecture()[0]
 if bit == '32bit':

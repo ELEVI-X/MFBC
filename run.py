@@ -1,6 +1,6 @@
 
 import os,sys,platform
-print(' • Checking updates');os.system('git pull -q');print('')
+print(' • Checking updates');os.system('git pull -q')
 bit = platform.architecture()[0]
 if bit == '32bit':
     print(" • This tool doesn't support 32bit devices");exit()

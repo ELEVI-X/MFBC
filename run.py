@@ -6,4 +6,4 @@ if bit == '32bit':
     print(" • This tool doesn't support 32bit devices");exit()
 elif bit == '64bit':
     import MFBC64
-else: print(" Your device doesn't support this tool ");exit()
+else: print(" • Your device doesn't support this tool ");exit()
